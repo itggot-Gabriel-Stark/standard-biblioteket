@@ -23,5 +23,3 @@ def index_of(string,letters)
     end
     return index_start
 end
-
-p index_of("foobar","baz")
