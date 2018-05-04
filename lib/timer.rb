@@ -9,6 +9,8 @@ seconds = minutes * 60
 end_time = start_time + seconds
 
 while Time.now < end_time
+  time_left = end_time - Time.now
+  puts "It's #{time_left.round} second(s) left."
   sleep 1
 end
 
